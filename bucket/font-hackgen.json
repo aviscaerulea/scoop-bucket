@@ -3,7 +3,7 @@
     "license": "custom",
     "homepage": "https://github.com/yuru7/HackGen",
     "url": "https://github.com/yuru7/HackGen/releases/download/v2.2.3/HackGen_v2.2.3.zip",
-    "hash": "3f190f25f035ff1e5e4d277e751dc85c64ecaaf9cfaa09074d5623f4a597e996",
+    "hash": "81dc942372856d7d7d0e3f8a1ecef11471e23161dce25165f0cddc01bcef62f1",
     "extract_dir": "HackGen_v2.2.3",
     "installer": {
         "script": [
