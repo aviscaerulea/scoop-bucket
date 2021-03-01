@@ -1,0 +1,36 @@
+{
+    "version": "1.58",
+    "license": "custom",
+    "homepage": "https://github.com/yuru7/HackGen",
+    "checkver": {
+        "url": "https://hide.maruo.co.jp/software/hmfilerclassichist.html",
+        "regex": "2[\\d]{3}/[\\d]{2}/[\\d]{2} V(?<version>[\\d.]+[\\d])"
+    },
+    "architecture": {
+        "32bit": {
+            "url": "https://hide.maruo.co.jp/software/bin/hmfilerclassic158_signed.exe",
+            "hash": "28fd2cd0d98de01cdaba97cd8c9694c78d964448ef9c2972fe27c4759e651032"
+        },
+        "64bit": {
+            "url": "https://hide.maruo.co.jp/software/bin/hmfilerclassic158_x64_signed.exe",
+            "hash": "593564b5bd3bed5647debeb7cbe487c07ee7f1e713ce21678b67e210af502af2"
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://hide.maruo.co.jp/software/bin/hmfilerclassic$cleanVersion_signed.exe"
+            },
+            "64bit": {
+                "url": "https://hide.maruo.co.jp/software/bin/hmfilerclassic$cleanVersion_x64_signed.exe"
+            }
+        }
+    },
+    "bin": "HmFilerClassic.exe",
+    "shortcuts": [
+        [
+            "HmFilerClassic.exe",
+            "秀丸ファイラーClassic"
+        ]
+    ]
+}
