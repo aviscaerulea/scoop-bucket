@@ -26,5 +26,5 @@
     "autoupdate": {
         "url": "https://github.com/yuru7/HackGen/releases/download/v$version/HackGenNerd_v$version.zip",
         "extract_dir": "HackGenNerd_v$version"
-    },
+    }
 }
