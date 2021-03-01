@@ -16,10 +16,9 @@
             "hash": "593564b5bd3bed5647debeb7cbe487c07ee7f1e713ce21678b67e210af502af2"
         }
     },
+    "pre_install": "Stop-Process -name HmFilerClassic -Force -Verbose -ErrorAction Ignore",
     "uninstaller": {
-        "script": [
-            "taskkill /F /IM 'HmFilerClassic.exe' /FI 'status eq running' | Out-Null"
-        ]
+        "script": "Stop-Process -name HmFilerClassic -Force -Verbose -ErrorAction Ignore"
     },
     "autoupdate": {
         "architecture": {
