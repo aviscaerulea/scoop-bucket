@@ -26,6 +26,11 @@
             }
         }
     },
+    "uninstaller": {
+        "script": [
+            "taskkill /t /im HmFilerClassic.exe > nul"
+        ]
+    },
     "extract_to": "",
     "bin": "HmFilerClassic.exe",
     "shortcuts": [
