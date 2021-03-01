@@ -28,7 +28,7 @@
     },
     "uninstaller": {
         "script": [
-            "taskkill /t /im HmFilerClassic.exe > nul"
+            "& cmd @('/c','taskkill /F /T /IM HmFilerClassic.exe 1>NUL 2>NUL')"
         ]
     },
     "extract_to": "",
