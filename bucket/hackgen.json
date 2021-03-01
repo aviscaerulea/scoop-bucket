@@ -10,24 +10,8 @@
         "url": "https://github.com/yuru7/HackGen/releases/download/v$version/HackGen_v$version.zip",
         "extract_dir": "HackGen_v$version"
     },
-    "depends": "sudo",
-    "installer": {
-        "script": [
-            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app; sudo scoop install $app'\"; exit 1 }",
-            "Get-ChildItem $dir -filter '*.ttf' | ForEach-Object {",
-            "    New-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Value $_.Name -Force | Out-Null",
-            "    Copy-Item -Force -Verbose $_.FullName -destination \"$env:windir\\Fonts\"",
-            "}"
-        ]
-    },
-    "uninstaller": {
-        "script": [
-            "if(!(is_admin)) { error \"Admin rights are required, please run 'sudo scoop uninstall $app'\"; exit 1 }",
-            "Get-ChildItem $dir -filter '*.ttf' | ForEach-Object {",
-            "   Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
-            "   Remove-Item -Force -Verbose \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
-            "}",
-            "Write-Host \"The 'HackGen' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
-        ]
-    }
+    "notes": [
+        "installer/uninstaller スクリプトは期待通りに動作しないので DL までを行わせている。",
+        "別途エクスプローラ上で 'インストール' を実行すること。"
+    ]
 }
