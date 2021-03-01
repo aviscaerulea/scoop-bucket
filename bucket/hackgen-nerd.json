@@ -2,13 +2,13 @@
     "version": "2.2.0",
     "license": "custom",
     "homepage": "https://github.com/yuru7/HackGen",
-    "url": "https://github.com/yuru7/HackGen/releases/download/v2.2.0/HackGen_v2.2.0.zip",
-    "hash": "48b1de8a62ea7b15b85786c7efe63993083dbe6a177b216e56d3a3a6fae5b7d6",
-    "extract_dir": "HackGen_v2.2.0",
+    "url": "https://github.com/yuru7/HackGen/releases/download/v2.2.0/HackGenNerd_v2.2.0.zip",
+    "hash": "38a074f00894465e3313b5abce104bb803c31e6f78c73fa989cf5b755ba80e92",
+    "extract_dir": "HackGenNerd_v2.2.0",
     "checkver": "github",
     "autoupdate": {
-        "url": "https://github.com/yuru7/HackGen/releases/download/v$version/HackGen_v$version.zip",
-        "extract_dir": "HackGen_v$version"
+        "url": "https://github.com/yuru7/HackGen/releases/download/v$version/HackGenNerd_v$version.zip",
+        "extract_dir": "HackGenNerd_v$version"
     },
     "depends": "sudo",
     "installer": {
@@ -27,7 +27,7 @@
             "   Remove-ItemProperty -Path 'HKLM:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $_.Name.Replace($_.Extension, ' (TrueType)') -Force -ErrorAction SilentlyContinue",
             "   Remove-Item -Verbose \"$env:windir\\Fonts\\$($_.Name)\" -Force -ErrorAction SilentlyContinue",
             "}",
-            "Write-Host \"The 'HackGen' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
+            "Write-Host \"The 'HackGenNerd' Font family has been uninstalled and will not be present after restarting your computer.\" -Foreground Magenta"
         ]
     }
 }
