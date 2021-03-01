@@ -16,6 +16,11 @@
             "hash": "593564b5bd3bed5647debeb7cbe487c07ee7f1e713ce21678b67e210af502af2"
         }
     },
+    "uninstaller": {
+        "script": [
+            "taskkill /F /IM 'HmFilerClassic.exe' /FI 'status eq running' | Out-Null"
+        ]
+    },
     "autoupdate": {
         "architecture": {
             "32bit": {
@@ -25,11 +30,6 @@
                 "url": "https://hide.maruo.co.jp/software/bin/hmfilerclassic$cleanVersion_x64_signed.exe#dl.zip"
             }
         }
-    },
-    "uninstaller": {
-        "script": [
-            "& cmd @('/c','taskkill /F /T /IM HmFilerClassic.exe 1>NUL 2>NUL')"
-        ]
     },
     "extract_to": "",
     "bin": "HmFilerClassic.exe",
