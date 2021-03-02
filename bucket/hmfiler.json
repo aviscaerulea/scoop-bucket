@@ -1,7 +1,7 @@
 {
     "version": "1.58",
     "license": "custom",
-    "homepage": "https://github.com/yuru7/HackGen",
+    "homepage": "https://hide.maruo.co.jp/software/hmfilerclassic.html",
     "checkver": {
         "url": "https://hide.maruo.co.jp/software/hmfilerclassichist.html",
         "regex": "2[\\d]{3}/[\\d]{2}/[\\d]{2} V(?<version>[\\d.]+[\\d])"
