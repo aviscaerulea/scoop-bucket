@@ -1,5 +1,5 @@
 {
-    "version": "8.97",
+    "version": "8.96",
     "license": "custom",
     "homepage": "https://hide.maruo.co.jp/software/hidemaru.html",
     "checkver": {
@@ -8,12 +8,20 @@
     },
     "architecture": {
         "32bit": {
-            "url": "https://hide.maruo.co.jp/software/bin/hm897_signed.exe#dl.zip",
-            "hash": "c186b1c22fca9da5665b07cb2ee4a6f09444f32d41d257ebc404b4b6c82cbf08"
+            "url": [
+                "https://hide.maruo.co.jp/software/bin/hm896_signed.exe#dl-1.zip",
+                "https://hide.maruo.co.jp/software/bin/hmpv503_signed.exe#dl-2.zip"
+            ],
+            "hash": [
+            ]
         },
         "64bit": {
-            "url": "https://hide.maruo.co.jp/software/bin/hm897_x64_signed.exe#dl.zip",
-            "hash": "6d19a6ecc5e783aff960f2046a491cb996c7f6d4dbbbeacfd659efbfd147d2b2"
+            "url": [
+                "https://hide.maruo.co.jp/software/bin/hm896_x64_signed.exe#dl-1.zip",
+                "https://hide.maruo.co.jp/software/bin/hmpv503_signed.exe#dl-2.zip"
+            ],
+            "hash": [
+            ]
         }
     },
     "autoupdate": {
