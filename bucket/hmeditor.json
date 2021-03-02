@@ -1,0 +1,37 @@
+{
+    "version": "8.96",
+    "license": "custom",
+    "homepage": "https://hide.maruo.co.jp/software/hidemaru.html",
+    "checkver": {
+        "url": "https://hide.maruo.co.jp/software/hidemaruhist.html",
+        "regex": "2[\\d]{3}/[\\d]{2}/[\\d]{2} Ver(?<version>[\\d.]+[\\d])"
+    },
+    "architecture": {
+        "32bit": {
+            "url": "https://hide.maruo.co.jp/software/bin/hm897_signed.exe#dl.zip",
+            "hash": ""
+        },
+        "64bit": {
+            "url": "https://hide.maruo.co.jp/software/bin/hm897_x64_signed.exe#dl.zip",
+            "hash": ""
+        }
+    },
+    "autoupdate": {
+        "architecture": {
+            "32bit": {
+                "url": "https://hide.maruo.co.jp/software/bin/hm$cleanVersion_signed.exe#dl.zip"
+            },
+            "64bit": {
+                "url": "https://hide.maruo.co.jp/software/bin/hm$cleanVersion_x64_signed.exe#dl.zip"
+            }
+        }
+    },
+    "extract_to": "",
+    "bin": "Hidemaru.exe",
+    "shortcuts": [
+        [
+            "Hidemaru.exe",
+            "秀丸エディタ"
+        ]
+    ]
+}
