@@ -5,7 +5,7 @@ This repository provides Manifests for the following applications that are not m
 - 秀丸ファイラー Hidemaru Filer
 - 秀丸エディタ Hidemaru Editor
 - RLogin
-- Hackgen / HackgenNerd
+- Hackgen / HackgenNerd  
   Execute up to the DL of the release file.
 
 The application provider is not affiliated with this repository.
