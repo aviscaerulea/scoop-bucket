@@ -7,10 +7,10 @@
     "hash": "",
     "checkver": "Reduce Memory\\s*v([\\d.]+)",
     "autoupdate": {
-        "url": "https://www.sordum.org/files/download/reduce-memory/ReduceMemory.zip",
-    }
+        "url": "https://www.sordum.org/files/download/reduce-memory/ReduceMemory.zip"
+    },
     "extract_dir": "ReduceMemory",
-    "persist": "ReduceMemory.ini"
+    "persist": "ReduceMemory.ini",
     "architecture": {
         "64bit": {
             "bin": "ReduceMemory_x64.exe",
