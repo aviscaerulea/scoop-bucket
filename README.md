@@ -5,8 +5,9 @@ This repository provides Manifests for the following applications that are not m
 - 秀丸ファイラー Hidemaru Filer
 - 秀丸エディタ Hidemaru Editor
 - RLogin
-- Hackgen / HackgenNerd  
+- Hackgen / HackgenNerd
   Execute up to download released files.
+- Reduce Memory
 
 The application provider is not affiliated with this repository.
 There is no guarantee of any disadvantage due to the use of this bucket.
