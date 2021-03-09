@@ -10,6 +10,7 @@ This bucket provides Manifests for the following applications that are not manag
   Execute up to download released files.
 - Reduce Memory
 - Dive
+- IME Cursor (non-portable)
 
 The application provider is not affiliated with this repository.
 There is no guarantee of any disadvantage due to the use of this bucket.
