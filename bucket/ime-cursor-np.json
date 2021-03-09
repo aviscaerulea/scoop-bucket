@@ -7,5 +7,10 @@
     "checkver": "Download\\s*v([\\d.]+)",
     "autoupdate": {
         "url": "https://shirouzu.jp/archive/IMECursor$cleanVersion_installer.exe"
+    },
+    "installer": {
+        "args": [
+            ""
+        ]
     }
 }
