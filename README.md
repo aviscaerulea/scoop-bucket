@@ -8,6 +8,7 @@ This repository provides Manifests for the following applications that are not m
 - Hackgen / HackgenNerd
   Execute up to download released files.
 - Reduce Memory
+- Dive
 
 The application provider is not affiliated with this repository.
 There is no guarantee of any disadvantage due to the use of this bucket.
