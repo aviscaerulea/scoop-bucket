@@ -8,6 +8,7 @@
     "autoupdate": {
         "url": "https://shirouzu.jp/archive/IMECursor$cleanVersion_installer.exe"
     },
+    "##": "インストーラをダウンロードして実行するだけ。",
     "installer": {
         "script": [
             "Invoke-ExternalCommand \"$original_dir\\setup.exe\""
