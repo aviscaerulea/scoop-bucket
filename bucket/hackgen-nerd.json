@@ -11,7 +11,7 @@
         "extract_dir": "HackGenNerd_v$version"
     },
     "notes": [
-        "installer/uninstaller スクリプトは期待通りに動作しないので DL までを行わせている。",
+        "installer/uninstaller スクリプトは使用中のフォントに対して期待通りに動作しないので DL までを行わせている。",
         "別途エクスプローラ上で 'インストール' を実行すること。"
     ]
 }
