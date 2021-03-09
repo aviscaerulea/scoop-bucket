@@ -1,11 +1,12 @@
 # scoop-bucket
 
-This repository provides Manifests for the following applications that are not managed by the standard bucket.
+This is my personal bucket.  
+This bucket provides Manifests for the following applications that are not managed by the standard bucket.
 
 - 秀丸ファイラー Hidemaru Filer
 - 秀丸エディタ Hidemaru Editor
 - RLogin
-- Hackgen / HackgenNerd
+- Hackgen / HackgenNerd  
   Execute up to download released files.
 - Reduce Memory
 - Dive
