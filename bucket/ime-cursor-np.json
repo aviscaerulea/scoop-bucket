@@ -9,9 +9,6 @@
         "url": "https://shirouzu.jp/archive/IMECursor$cleanVersion_installer.exe#setup.exe"
     },
     "installer": {
-        "args": [
-            ""
-        ],
         "script": [
             "Invoke-ExternalCommand \"$dir\\setup.exe\""
         ]
