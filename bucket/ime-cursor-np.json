@@ -10,7 +10,7 @@
     },
     "installer": {
         "script": [
-            "Invoke-ExternalCommand \"$dir\\IMECursor$cleanVersion_installer.exe\""
+            "Invoke-ExternalCommand \"$original_dir\\IMECursor$cleanVersion_installer.exe\""
         ]
     }
 }
