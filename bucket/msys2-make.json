@@ -15,7 +15,7 @@
     ],
     "checkver": {
         "url": "https://repo.msys2.org/msys/x86_64/",
-        "regex": "make-(?<version>[\\d.]+)-(?<release>\\d+)-x86_64.pkg.tar.xz"
+        "regex": ">make-(?<version>[\\d.]+)-(?<release>\\d+)-x86_64.pkg.tar.xz"
     },
     "autoupdate": {
         "architecture": {
