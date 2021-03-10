@@ -29,11 +29,9 @@
     ],
     "installer": {
         "script": [
-            "Invoke-ExternalCommand \"$(appdir msys2)\\current\\msys2_shell.cmd\" -ArgumentList @('-msys2', '-no-start', '-defterm', '-c', '\"
-                LC_ALL=C
-                pacman -Syq
-                pacman -S --needed --noconfirm --noprogressbar make
-            \"')",
+            "Invoke-ExternalCommand \"$(appdir msys2)\\current\\msys2_shell.cmd\" -ArgumentList @('-msys2', '-no-start', '-defterm', '-c', '\"",
+                "LC_ALL=C pacman -Syq --needed --noconfirm --noprogressbar make",
+            "\"')",
             "$msys_make = Convert-Path \"$(scoop prefix msys2)\\usr\\bin\\make.exe\"",
             "echo \"shim $msys_make make '' $dir\"",
             "Invoke-ExternalCommand \"$(scoop which shim.cmd)\" -ArgumentList @($msys_make, 'make', '\"\"', $dir)"
@@ -41,9 +39,9 @@
     },
     "uninstaller": {
         "script": [
-            "Invoke-ExternalCommand \"$(appdir msys2)\\current\\msys2_shell.cmd\" -ArgumentList @('-msys2', '-no-start', '-defterm', '-c', '\"
-                LC_ALL=C pacman -Rsu --noconfirm --noprogressbar make
-            \"')"
+            "Invoke-ExternalCommand \"$(appdir msys2)\\current\\msys2_shell.cmd\" -ArgumentList @('-msys2', '-no-start', '-defterm', '-c', '\"",
+                "LC_ALL=C pacman -Rsu --noconfirm --noprogressbar make",
+            "\"')"
         ]
     }
 }
