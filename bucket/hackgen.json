@@ -10,6 +10,11 @@
         "url": "https://github.com/yuru7/HackGen/releases/download/v$version/HackGen_v$version.zip",
         "extract_dir": "HackGen_v$version"
     },
+    "uninstaller": {
+        "script": [
+            ""
+        ]
+    },
     "notes": [
         "installer/uninstaller スクリプトは使用中のフォントに対して期待通りに動作しないので DL までを行わせている。",
         "別途エクスプローラ上で 'インストール' を実行すること。"
