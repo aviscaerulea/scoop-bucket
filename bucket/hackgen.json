@@ -12,7 +12,7 @@
     },
     "uninstaller": {
         "script": [
-            ""
+            "Write-Host 'nothing to do'"
         ]
     },
     "notes": [
