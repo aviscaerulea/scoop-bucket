@@ -1,10 +1,10 @@
 {
-    "version": "1.4",
+    "version": "1.5",
     "description": "Sordum's NTFS Drive Protection. Protect removable drives from malware creating autorun.inf files.",
     "license": "Freeware",
     "homepage": "https://www.sordum.org/9197/",
     "url": "https://www.sordum.org/files/download/reduce-memory/ReduceMemory.zip",
-    "hash": "",
+    "hash": "c09f558a9c3c08d336a5fd4e93bd6dcf74a086817890f5f923453889495aef12",
     "checkver": "Reduce Memory\\s*v([\\d.]+)",
     "autoupdate": {
         "url": "https://www.sordum.org/files/download/reduce-memory/ReduceMemory.zip"
