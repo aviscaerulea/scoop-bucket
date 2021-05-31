@@ -1,17 +1,15 @@
 {
-    "version": "1.21",
+    "version": "1.22",
     "license": "Freeware",
     "homepage": "https://shirouzu.jp/tech/IMECursor.htm",
-    "url": "https://shirouzu.jp/archive/IMECursor121_installer.exe#/setup.exe",
-    "hash": "c3691ecdb11aced65432d61baec1171e90495f648ae6db211241daa819617b4e",
+    "url": "https://shirouzu.jp/archive/IMECursor122_installer.exe",
+    "hash": "0f1ff1aa3f16e85fd475718be26484afd1f6df83701adc64e2bee2b80528059f",
     "checkver": "Download\\s*v([\\d.]+)",
     "autoupdate": {
         "url": "https://shirouzu.jp/archive/IMECursor$cleanVersion_installer.exe"
     },
     "##": "インストーラをダウンロードして実行するだけ。",
     "installer": {
-        "script": [
-            "Invoke-ExternalCommand \"$original_dir\\setup.exe\""
-        ]
+        "script": "Invoke-ExternalCommand \"$original_dir\\setup.exe\""
     }
 }
