@@ -1,9 +1,9 @@
 {
-    "version": "1.22",
+    "version": "1.2.3",
     "license": "Freeware",
     "homepage": "https://shirouzu.jp/tech/IMECursor.htm",
-    "url": "https://shirouzu.jp/archive/IMECursor122_installer.exe",
-    "hash": "0f1ff1aa3f16e85fd475718be26484afd1f6df83701adc64e2bee2b80528059f",
+    "url": "https://shirouzu.jp/archive/IMECursor123_installer.exe",
+    "hash": "7f6b8c6e50e44ac541cb889291d45737562a4258c5bdec27fe2b2f65246cd52b",
     "checkver": "Download\\s*v([\\d.]+)",
     "autoupdate": {
         "url": "https://shirouzu.jp/archive/IMECursor$cleanVersion_installer.exe"
