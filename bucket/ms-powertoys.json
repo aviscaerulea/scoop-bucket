@@ -1,10 +1,10 @@
 {
-    "version": "0.37.0",
+    "version": "0.37.2",
     "description": "A set of utilities for power users to tune and streamline their Windows experience for greater productivity.",
     "homepage": "https://github.com/microsoft/PowerToys",
     "license": "MIT",
-    "url": "https://github.com/microsoft/PowerToys/releases/download/v0.37.0/PowerToysSetup-0.37.0-x64.exe",
-    "hash": "",
+    "url": "https://github.com/microsoft/PowerToys/releases/download/v0.37.2/PowerToysSetup-0.37.2-x64.exe",
+    "hash": "bb045e34a8c6dda640c1cb262e7a3c646c6f6be8adbcb7dc7b6e77f9217b71e6",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/microsoft/PowerToys/releases/download/v$version/PowerToysSetup-$version-x64.exe"
