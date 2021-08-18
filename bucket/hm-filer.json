@@ -7,10 +7,6 @@
         "regex": "2[\\d]{3}/[\\d]{2}/[\\d]{2} V(?<version>[\\d.]+[\\d])"
     },
     "architecture": {
-        "32bit": {
-            "url": "https://hide.maruo.co.jp/software/bin/hmfilerclassic162_signed.exe#dl.zip",
-            "hash": "6b11c47ebd5f34d472acb43e3e347c72a0a0cbf613e5d9c37d21bac546c109d1"
-        },
         "64bit": {
             "url": "https://hide.maruo.co.jp/software/bin/hmfilerclassic162_x64_signed.exe#dl.zip",
             "hash": "a18bcdb629505448448d9049ff52efe959bdbeee4a825b4137447445fa5c4692"
@@ -18,9 +14,6 @@
     },
     "autoupdate": {
         "architecture": {
-            "32bit": {
-                "url": "https://hide.maruo.co.jp/software/bin/hmfilerclassic$cleanVersion_signed.exe#dl.zip"
-            },
             "64bit": {
                 "url": "https://hide.maruo.co.jp/software/bin/hmfilerclassic$cleanVersion_x64_signed.exe#dl.zip"
             }

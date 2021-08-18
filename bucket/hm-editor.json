@@ -1,5 +1,5 @@
 {
-    "version": "8.98",
+    "version": "8.99.1",
     "license": "custom",
     "homepage": "https://hide.maruo.co.jp/software/hidemaru.html",
     "checkver": {
@@ -8,32 +8,19 @@
     },
     "##": "秀丸パブリッシャー hmpv*.exe は 32bit/64bit 共通",
     "architecture": {
-        "32bit": {
-            "url": [
-                "https://hide.maruo.co.jp/software/bin/hm898_signed.exe#dl.zip",
-                "https://hide.maruo.co.jp/software/bin/hmpv503_signed.exe#dl-2.zip"
-            ],
-            "hash": [
-                "b0f67161f3b843f58c678d67ce378cc380bfa4ac095e3a6bd11206d400199491",
-                "de2b6a4af258e5f8e647b7531daa9b8aeb8592b3848061983be7c7666b34ba7d"
-            ]
-        },
         "64bit": {
             "url": [
-                "https://hide.maruo.co.jp/software/bin/hm898_x64_signed.exe#dl.zip",
-                "https://hide.maruo.co.jp/software/bin/hmpv503_signed.exe#dl-2.zip"
+                "https://hide.maruo.co.jp/software/bin/hm899_1_x64_signed.exe#dl.zip",
+                "https://hide.maruo.co.jp/software/bin/hmpv505_signed.exe#dl-2.zip"
             ],
             "hash": [
-                "c9bca72e9a0c2589fd9f4f3788fba3061e41ee7b2262aeb14752ccd07084b43b",
-                "de2b6a4af258e5f8e647b7531daa9b8aeb8592b3848061983be7c7666b34ba7d"
+                "",
+                ""
             ]
         }
     },
     "autoupdate": {
         "architecture": {
-            "32bit": {
-                "url": "https://hide.maruo.co.jp/software/bin/hm$cleanVersion_signed.exe#dl.zip"
-            },
             "64bit": {
                 "url": "https://hide.maruo.co.jp/software/bin/hm$cleanVersion_x64_signed.exe#dl.zip"
             }
