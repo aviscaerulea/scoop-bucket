@@ -1,10 +1,10 @@
 {
-    "version": "2.3.5",
+    "version": "2.4.1",
     "license": "custom",
     "homepage": "https://github.com/yuru7/HackGen",
-    "url": "https://github.com/yuru7/HackGen/releases/download/v2.3.5/HackGenNerd_v2.3.5.zip",
-    "hash": "55370c08d4d528b57a52024efee835dfe337169c7e5f20089cf4e596aa9a3525",
-    "extract_dir": "HackGenNerd_v2.3.5",
+    "url": "https://github.com/yuru7/HackGen/releases/download/v2.4.1/HackGenNerd_v2.4.1.zip",
+    "hash": "90e7de7516ba044420362c59240f02986ebd85bf8b3aafcac98bce2a41e3b06e",
+    "extract_dir": "HackGenNerd_v2.4.1",
     "checkver": "github",
     "autoupdate": {
         "url": "https://github.com/yuru7/HackGen/releases/download/v$version/HackGenNerd_v$version.zip",
