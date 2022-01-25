@@ -1,5 +1,5 @@
 {
-    "version": "1.68",
+    "version": "1.72",
     "license": "custom",
     "homepage": "https://hide.maruo.co.jp/software/hmfilerclassic.html",
     "checkver": {
@@ -8,8 +8,8 @@
     },
     "architecture": {
         "64bit": {
-            "url": "https://hide.maruo.co.jp/software/bin/hmfilerclassic168_x64_signed.exe#dl.zip",
-            "hash": "d9ad036f2a6191c2a5974a656e025fb3640e89d13df7ac7498e2ccb65afd298a"
+            "url": "https://hide.maruo.co.jp/software/bin/hmfilerclassic172_x64_signed.exe#dl.zip",
+            "hash": "711c1863d5e37489cbcd1946548187ef068a7fcde00b7a501850c07edd6cd6a5"
         }
     },
     "autoupdate": {

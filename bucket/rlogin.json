@@ -1,5 +1,5 @@
 {
-    "version": "2.26.2",
+    "version": "2.26.6",
     "description": "RLogin is a terminal software that runs on Windows",
     "license": "MIT",
     "##": "RLogin は GitHub でリリースバイナリを Assets にしていないので、ウェブサイト側から DL するようにしている",
