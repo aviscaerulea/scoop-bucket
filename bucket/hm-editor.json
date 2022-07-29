@@ -1,5 +1,5 @@
 {
-    "version": "9.14",
+    "version": "9.17",
     "license": "custom",
     "homepage": "https://hide.maruo.co.jp/software/hidemaru.html",
     "checkver": {
@@ -10,11 +10,11 @@
     "architecture": {
         "64bit": {
             "url": [
-                "https://hide.maruo.co.jp/software/bin/hm914_x64_signed.exe#dl.zip",
+                "https://hide.maruo.co.jp/software/bin/hm917_x64_signed.exe#dl.zip",
                 "https://hide.maruo.co.jp/software/bin/hmpv507_signed.exe#dl-2.zip"
             ],
             "hash": [
-                "7b531d28849130eeacf58c6b224703214e776bd4a1749c15293a6f563b9b428a",
+                "d7dcda125c71fd473a924f619fcb734d2d1262be1e5fa553962b967d7494e9d0",
                 ""
             ]
         }
