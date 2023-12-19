@@ -9,11 +9,8 @@
             "hash": "9F2C7F990C554BA286616DD08E59AC32D543E80EEF335F5C65762C020234BC1B"
         }
     },
-    "pre_install": "Rename-Item \"$dir\\Ahk2Exe-$version.exe\" 'Ahk2Exe.exe' -ErrorAction SilentlyContinue",
     "bin": "Ahk2Exe.exe",
-    "checkver": {
-        "github": "https://github.com/AutoHotkey/Ahk2Exe"
-    },
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
