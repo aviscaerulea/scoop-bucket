@@ -3,6 +3,7 @@
 This is my personal bucket.  
 This bucket provides Manifests for the following applications that are not managed by the standard bucket.
 
+- Ahk2Exe
 - 秀丸ファイラー Hidemaru Filer
 - 秀丸エディタ＋秀丸パブリッシャー Hidemaru Editor with Publisher
 - RLogin
