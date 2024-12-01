@@ -6,6 +6,8 @@ on:
 
 jobs:
   excavate:
+    permissions: 
+      contents: write
     name: Excavator
     runs-on: windows-latest
     steps:
