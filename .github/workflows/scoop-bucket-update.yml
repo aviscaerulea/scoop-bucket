@@ -1,14 +1,14 @@
-name: Excavator
+name: Scoop バケット W/F
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 * * * *' # UTC
+    - cron: '0 15 * * *' # UTC
 
 jobs:
   excavate:
     permissions: 
       contents: write
-    name: Excavator
+    name: Scoop バケット更新
     runs-on: windows-latest
     steps:
       - uses: actions/checkout@main
