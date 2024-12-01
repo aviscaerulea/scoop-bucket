@@ -2,7 +2,7 @@ name: Excavator
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 15 * * *' # UTC
+    - cron: '0 * * * *' # UTC
 
 jobs:
   excavate:
