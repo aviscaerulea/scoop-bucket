@@ -5,7 +5,7 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kmiya-culti/RLogin/releases/download/RLogin-2.29.8/rlogin_x64.zip",
+            "url": "https://github.com/kmiya-culti/RLogin/releases/download/2.29.8/rlogin_x64.zip",
             "hash": ""
         },
     },
@@ -22,7 +22,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/kmiya-culti/RLogin/releases/download/RLogin-$version/rlogin_x64.zip"
+                "url": "https://github.com/kmiya-culti/RLogin/releases/download/$version/rlogin_x64.zip"
             },
         }
     }
