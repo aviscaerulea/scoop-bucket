@@ -1,4 +1,4 @@
-name: Scoop バケット W/F
+name: Scoop バケット 更新
 on:
   workflow_dispatch:
   schedule:
