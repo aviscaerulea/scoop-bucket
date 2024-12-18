@@ -1,9 +1,9 @@
 {
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "Bizin Gothic",
     "homepage": "https://github.com/yuru7/bizin-gothic",
     "license": "OFL-1.1",
-    "url": "https://github.com/yuru7/bizin-gothic/releases/download/v0.0.3/BizinGothic_v0.0.3.zip",
+    "url": "https://github.com/yuru7/bizin-gothic/releases/download/0.0.4/BizinGothic_0.0.4.zip",
     "hash": "",
     "checkver": {
         "github": "https://github.com/yuru7/bizin-gothic"
