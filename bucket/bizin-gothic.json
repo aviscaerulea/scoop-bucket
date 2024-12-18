@@ -1,11 +1,11 @@
 {
-    "version": "1.1.1",
+    "version": "0.0.3",
     "description": "Bizin Gothic",
     "homepage": "https://github.com/yuru7/bizin-gothic",
     "license": "OFL-1.1",
-    "url": "https://github.com/yuru7/bizin-gothic/releases/download/v1.1.1/BizinGothic_v1.1.1.zip",
-    "hash": "sha256:0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef",
-    "extract_dir": "BizinGothic_v1.1.1",
+    "url": "https://github.com/yuru7/bizin-gothic/releases/download/v0.0.3/BizinGothic_v0.0.3.zip",
+    "hash": "",
+    "extract_dir": "BizinGothic_v0.0.3",
     "installer": {
         "script": [
             "$fontdir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
