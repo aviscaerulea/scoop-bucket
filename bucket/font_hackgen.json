@@ -1,0 +1,31 @@
+{
+    "version": "2.9.0",
+    "description": "HackGen",
+    "homepage": "https://github.com/yuru7/HackGen",
+    "license": "OFL-1.1",
+    "url": "https://github.com/yuru7/HackGen/releases/download/v2.9.0/HackGen_v2.9.0.zip",
+    "hash": "sha256:8e5e1b6c8f5f4c6a8d7b3e8d8f6b5c3a7e9f4b6c3e8d7b3e8d8f6b5c3a7e9f4",
+    "extract_dir": "HackGen_v2.9.0",
+    "installer": {
+        "script": [
+            "$fontdir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
+            "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
+            "    $fontName = $_.Name.Replace($_.Extension, ' (TrueType)')",
+            "    $fontPath = Join-Path $fontdir $_.Name",
+            "    New-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $fontName -Value $fontPath -Force | Out-Null",
+            "    Copy-Item $_.FullName -Destination $fontdir -Force",
+            "}"
+        ]
+    },
+    "uninstaller": {
+        "script": [
+            "$fontdir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
+            "Get-ChildItem $dir -Filter '*.ttf' | ForEach-Object {",
+            "    $fontName = $_.Name.Replace($_.Extension, ' (TrueType)')",
+            "    $fontPath = Join-Path $fontdir $_.Name",
+            "    Remove-ItemProperty -Path 'HKCU:\\SOFTWARE\\Microsoft\\Windows NT\\CurrentVersion\\Fonts' -Name $fontName -Force -ErrorAction SilentlyContinue",
+            "    Remove-Item $fontPath -Force -ErrorAction SilentlyContinue",
+            "}"
+        ]
+    }
+}
