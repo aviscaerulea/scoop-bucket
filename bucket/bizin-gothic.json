@@ -6,10 +6,10 @@
     "url": "https://github.com/yuru7/bizin-gothic/releases/download/v0.0.3/BizinGothic_v0.0.3.zip",
     "hash": "",
     "checkver": {
-        "github": "$homepage"
+        "github": "https://github.com/yuru7/bizin-gothic"
     },
     "autoupdate": {
-        "url": "$homepage/releases/download/$version/BizinGothic_$version.zip",
+        "url": "https://github.com/yuru7/bizin-gothic/releases/download/$version/BizinGothic_$version.zip",
         "extract_dir": "BizinGothic_v$version"
     },
     "installer": {
