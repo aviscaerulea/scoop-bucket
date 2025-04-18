@@ -1,0 +1,27 @@
+{
+    "homepage": "https://github.com/httpie/desktop",
+    "description": "HTTPie Desktop",
+    "version": "2025.2.0",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/httpie/desktop/releases/download/v2025.2.0/HTTPie-Setup-2025.2.0.exe",
+            "hash": ""
+        }
+    },
+    "shortcuts": [
+        [
+            "HTTPie.exe",
+            "HTTPie"
+        ]
+    ],
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/httpie/desktop/releases/download/v$version/HTTPie-$version.exe",
+                "hash": "SHA256:$sha256"
+            }
+        }
+    },
+}
