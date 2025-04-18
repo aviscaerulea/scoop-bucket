@@ -2,13 +2,18 @@
     "homepage": "https://github.com/httpie/desktop",
     "description": "HTTPie Desktop",
     "version": "2025.2.0",
-    "license": "BSD-3-Clause",
+    "homepage": "https://httpie.io/desktop",
+    "license": "Proprietary",
     "architecture": {
         "64bit": {
             "url": "https://github.com/httpie/desktop/releases/download/v2025.2.0/HTTPie-Setup-2025.2.0.exe",
             "hash": ""
         }
     },
+    "installer": {
+        "script": "Start-Process -Wait \"$dir\\HTTPie-$version.exe\" \"/S /D=$dir\""
+    },
+    "bin": "HTTPie.exe",
     "shortcuts": [
         [
             "HTTPie.exe",
