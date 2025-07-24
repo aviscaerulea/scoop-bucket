@@ -10,19 +10,18 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/VOICEVOX/voicevox/releases/download/0.24.2/voicevox-windows-directml-0.24.2.zip",
-            "hash": "9dada9828fb76c49d8447dffcf012b35d6852aecb1348a5fef5d4feba5b552d3",
-            "extract_to": "voicevox"
+            "hash": "9dada9828fb76c49d8447dffcf012b35d6852aecb1348a5fef5d4feba5b552d3"
         }
     },
     "bin": [
         [
-            "voicevox\\VOICEVOX.exe",
+            "VOICEVOX.exe",
             "voicevox"
         ]
     ],
     "shortcuts": [
         [
-            "voicevox\\VOICEVOX.exe",
+            "VOICEVOX.exe",
             "VOICEVOX"
         ]
     ],
