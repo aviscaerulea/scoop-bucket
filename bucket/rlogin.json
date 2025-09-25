@@ -1,12 +1,12 @@
 {
-    "version": "2.30.8",
+    "version": "2.30.9",
     "description": "RLogin is a terminal software that runs on Windows",
     "homepage": "https://github.com/kmiya-culti/RLogin",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/kmiya-culti/RLogin/releases/download/2.30.8/rlogin_x64.zip",
-            "hash": "3f033034476abf6ccdafd9972c3052a61444e139de42bf1cd0ec54a18d0301e0"
+            "url": "https://github.com/kmiya-culti/RLogin/releases/download/2.30.9/rlogin_x64.zip",
+            "hash": "d989d12d7995ecf88f02d1bb994188ce175924b54fd3ba6b7de614f828f8098e"
         }
     },
     "bin": "RLogin.exe",
