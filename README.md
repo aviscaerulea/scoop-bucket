@@ -10,6 +10,7 @@ This bucket provides Manifests for the following applications that are not manag
 - JPEGView (fork)
 - Hidemaru Filer (秀丸ファイラー)
 - minply
+- Monitor Off
 - Reduce Memory
 - UDEV Gothic
 - VOICEVOX
