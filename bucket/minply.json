@@ -1,12 +1,12 @@
 {
-    "version": "1.1.0",
+    "version": "1.2.0",
     "description": "Ultra-lightweight CLI audio player that compensates for Bluetooth receiver head truncation",
     "homepage": "https://github.com/aviscaerulea/minply",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aviscaerulea/minply/releases/download/v1.1.0/minply-1.1.0-windows-x86_64.zip",
-            "hash": "1e9793ffce9bd599a14b7d3d5b5575502152e797053b846602888834e95ab5ff"
+            "url": "https://github.com/aviscaerulea/minply/releases/download/v1.2.0/minply-1.2.0-windows-x86_64.zip",
+            "hash": "10d95bd923fbfa6b32e70e85499a9c93fcf5c7071e43ecffdbd4fcf02c965936"
         }
     },
     "bin": "minply.exe",
