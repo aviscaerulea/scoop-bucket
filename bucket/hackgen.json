@@ -1,11 +1,18 @@
 {
-    "version": "2.9.0",
+    "version": "2.10.0",
     "description": "HackGen",
     "homepage": "https://github.com/yuru7/HackGen",
     "license": "OFL-1.1",
-    "url": "https://github.com/yuru7/HackGen/releases/download/v2.9.0/HackGen_v2.9.0.zip",
-    "hash": "sha256:8e5e1b6c8f5f4c6a8d7b3e8d8f6b5c3a7e9f4b6c3e8d7b3e8d8f6b5c3a7e9f4",
-    "extract_dir": "HackGen_v2.9.0",
+    "url": "https://github.com/yuru7/HackGen/releases/download/v2.10.0/HackGen_v2.10.0.zip",
+    "hash": "ed182e2a4b95792d94dea7932f6b45280b5ae353651be249d5f6b7867b788db7",
+    "extract_dir": "HackGen_v2.10.0",
+    "checkver": {
+        "github": "https://github.com/yuru7/HackGen"
+    },
+    "autoupdate": {
+        "url": "https://github.com/yuru7/HackGen/releases/download/v$version/HackGen_v$version.zip",
+        "extract_dir": "HackGen_v$version"
+    },
     "installer": {
         "script": [
             "$fontdir = \"$env:LOCALAPPDATA\\Microsoft\\Windows\\Fonts\"",
