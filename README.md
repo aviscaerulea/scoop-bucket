@@ -9,6 +9,7 @@ This bucket provides Manifests for the following applications that are not manag
 - Hidemaru Editor with Publisher (秀丸エディタ＋秀丸パブリッシャー)
 - JPEGView (fork)
 - Hidemaru Filer (秀丸ファイラー)
+- keypress
 - minply
 - Monitor Off
 - Reduce Memory
