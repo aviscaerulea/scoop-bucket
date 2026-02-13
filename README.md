@@ -13,6 +13,7 @@ This bucket provides Manifests for the following applications that are not manag
 - minply
 - Monitor Off
 - Reduce Memory
+- tally
 - UDEV Gothic
 - VOICEVOX
 
