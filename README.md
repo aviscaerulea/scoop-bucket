@@ -10,7 +10,7 @@ This bucket provides Manifests for the following applications that are not manag
 | HackGen | Programming font combining Hack and Gen Jyuu Gothic |
 | Hidemaru Editor with Publisher | Japanese text editor with publishing add-on (秀丸エディタ＋秀丸パブリッシャー) |
 | Hidemaru Filer | Japanese two-pane file manager (秀丸ファイラー) |
-| JPEGView (fork) | Fast image viewer/editor with HEIC/PDF/AVX2 support (fork by @aviscaerulea) |
+| JPEGView-nt | Fast image viewer/editor with HEIC/PDF/AVX2 support (fork by @aviscaerulea) |
 | keypress | Lightweight CLI tool to automate key input (by @aviscaerulea) |
 | minply | Ultra-lightweight CLI audio player with Bluetooth head truncation compensation (by @aviscaerulea) |
 | Monitor Off | Lock desktop and turn off monitor power (by @aviscaerulea) |
