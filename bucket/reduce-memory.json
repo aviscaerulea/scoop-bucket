@@ -1,6 +1,6 @@
 {
     "version": "1.7",
-    "description": "Sordum's NTFS Drive Protection. Protect removable drives from malware creating autorun.inf files.",
+    "description": "Reduce working set memory of processes to free up RAM",
     "license": "Freeware",
     "homepage": "https://www.sordum.org/9197/",
     "url": "https://www.sordum.org/files/download/reduce-memory/ReduceMemory.zip",
