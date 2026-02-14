@@ -16,7 +16,20 @@
             "JPEGView"
         ]
     ],
-    "persist": "JPEGView.ini",
+    "pre_install": [
+        "if (!(Test-Path \"$persist_dir\\JPEGView.ini\")) {",
+        "    Copy-Item \"$dir\\JPEGView.ini.original\" \"$dir\\JPEGView.ini\" -Force",
+        "    (Get-Content \"$dir\\JPEGView.ini\") -replace 'StoreToEXEPath=false','StoreToEXEPath=true' | Set-Content \"$dir\\JPEGView.ini\"",
+        "}",
+        "if (Test-Path \"$persist_dir\\ParamDB.db\") { Copy-Item \"$persist_dir\\ParamDB.db\" \"$dir\" | Out-Null }"
+    ],
+    "persist": [
+        "JPEGView.ini",
+        "KeyMap.txt"
+    ],
+    "uninstaller": {
+        "script": "if (Test-Path \"$dir\\ParamDB.db\") { Copy-Item \"$dir\\ParamDB.db\" \"$persist_dir\" | Out-Null }"
+    },
     "checkver": {
         "github": "https://github.com/aviscaerulea/jpegview-fork",
         "regex": "tag/v([\\d.]+-\\d+\\.\\d+)"
