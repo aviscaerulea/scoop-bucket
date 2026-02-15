@@ -1,12 +1,12 @@
 {
-    "version": "1.3.46.0-20260215.2",
+    "version": "1.3.46.0-20260215.3",
     "description": "Fast and highly configurable image viewer/editor with a minimal GUI",
     "homepage": "https://github.com/aviscaerulea/jpegview-nt",
     "license": "GPL-2.0-only",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aviscaerulea/jpegview-nt/releases/download/v1.3.46.0-20260215.2/JPEGView-nt-1.3.46.0-20260215.2_x64.zip",
-            "hash": "936cdd3ec818ecd23f2a34b78ec193d61b4d6b1dde99236f5c2649a3a2082536"
+            "url": "https://github.com/aviscaerulea/jpegview-nt/releases/download/v1.3.46.0-20260215.3/JPEGView-nt-1.3.46.0-20260215.3_x64.zip",
+            "hash": "47c69202c3a3cfb1a401b5c3764c9e1350edb0b3af9d5deae7469ff3337f3372"
         }
     },
     "bin": "JPEGView.exe",
