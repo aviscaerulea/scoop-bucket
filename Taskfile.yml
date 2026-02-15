@@ -1,0 +1,46 @@
+# vi: ts=2 sw=2 ff=unix fenc=utf-8
+version: '3'
+
+vars:
+  OUT_DIR: out
+
+tasks:
+  clean:
+    desc: out/ ディレクトリのクリーニング
+    cmds:
+      - rm -rf {{.OUT_DIR}}/*
+
+  build:
+    desc: マニフェストの JSON 構文チェック
+    cmds:
+      - mkdir -p {{.OUT_DIR}}
+      - |
+        failed=0
+        for f in bucket/*.json; do
+          if [ -f "$f" ]; then
+            if python -m json.tool "$f" > /dev/null 2>&1; then
+              echo "OK: $f"
+            else
+              echo "ERROR: $f"
+              failed=1
+            fi
+          fi
+        done
+        if [ "$failed" -eq 1 ]; then
+          echo "JSON validation failed."
+          exit 1
+        fi
+        echo "All manifests are valid."
+
+  release:
+    desc: マニフェストの検証（clean 実行後）
+    deps: [clean]
+    cmds:
+      - mkdir -p {{.OUT_DIR}}
+      - task: build
+
+  update:
+    desc: GitHub Actions で Scoop バケットの自動更新を実行
+    cmds:
+      - gh workflow run scoop-bucket-update.yml
+      - echo "ワークフローを実行開始した"
