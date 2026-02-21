@@ -13,6 +13,7 @@ This bucket provides Manifests for the following applications that are not manag
 | [JPEGView-nt](https://github.com/aviscaerulea/jpegview-nt) | Fast image viewer/editor with HEIC/PDF/AVX2 support (fork by @aviscaerulea) |
 | [Reduce Memory](https://www.sordum.org/9197/) | Reduce working set memory of processes to free up RAM (Sordum) |
 | [keypress](https://github.com/aviscaerulea/keypress) | Lightweight CLI tool to automate key input (by @aviscaerulea) |
+| [busybox-nt](https://github.com/aviscaerulea/busybox-nt) | BusyBox for Windows with UTF-8 support and performance optimizations (fork by @aviscaerulea) |
 | [minply](https://github.com/aviscaerulea/minply) | Ultra-lightweight CLI audio player with Bluetooth head truncation compensation (by @aviscaerulea) |
 | [Monitor Off](https://github.com/aviscaerulea/monitor-off) | Lock desktop and turn off monitor power (by @aviscaerulea) |
 | [tally](https://github.com/aviscaerulea/tally) | Detect web meetings by monitoring microphone and camera usage (by @aviscaerulea) |
