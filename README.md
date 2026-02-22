@@ -9,7 +9,6 @@ This bucket provides Manifests for the following applications that are not manag
 | [秀丸ファイラー](https://hide.maruo.co.jp/software/hmfilerclassic.html) | Japanese two-pane file manager (秀丸ファイラー) |
 | [UDEV Gothic](https://github.com/yuru7/udev-gothic) | Programming font combining BIZ UD Gothic and JetBrains Mono |
 | [HackGen](https://github.com/yuru7/HackGen) | Programming font combining Hack and Gen Jyuu Gothic |
-| [Bizin Gothic](https://github.com/yuru7/bizin-gothic) | Programming font combining BIZ UD Gothic and Monaspace Neon |
 | [JPEGView-nt](https://github.com/aviscaerulea/jpegview-nt) | Fast image viewer/editor with HEIC/PDF/AVX2 support (fork by @aviscaerulea) |
 | [Reduce Memory](https://www.sordum.org/9197/) | Reduce working set memory of processes to free up RAM (Sordum) |
 | [keypress](https://github.com/aviscaerulea/keypress) | Lightweight CLI tool to automate key input (by @aviscaerulea) |
