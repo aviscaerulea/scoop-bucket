@@ -1,13 +1,13 @@
 {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "description": "Calendar event notifier daemon with Windows Toast notifications",
     "homepage": "https://github.com/aviscaerulea/gcalntfy",
     "license": "Freeware",
     "depends": "extras/ffmpeg",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aviscaerulea/gcalntfy/releases/download/v$version/gcalntfy-$version-x64.zip",
-            "hash": "fc2c49f19af5c589f4f35d7fb0eba1ea2115733b71b5663fa6496b5d63ba6dbd"
+            "url": "https://github.com/aviscaerulea/gcalntfy/releases/download/v2.0.1/gcalntfy-2.0.1-x64.zip",
+            "hash": "f364717a96dba0b8ee0f414605821f901ed6888ae7bb63315cc6ca54d6f045d2"
         }
     },
     "bin": "gcalntfy.exe",
