@@ -9,7 +9,7 @@
             "hash": "f42b1e0ca0d1009c5aa9683da5bf9d11e8f7b604e808dfb7dc6efea6cb43c854"
         }
     },
-    "bin": "system-meters.exe",
+    "bin": "sysmeters.exe",
     "persist": "sysmeters.toml",
     "checkver": "github",
     "autoupdate": {
