@@ -1,2 +1,7 @@
 CLAUDE.md
 .claude/
+**/.env
+**/*.local.*
+.serena/
+.task/
+.clasp.json
