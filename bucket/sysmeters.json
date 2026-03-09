@@ -10,6 +10,9 @@
         }
     },
     "bin": "sysmeters.exe",
+    "pre_install": "Stop-Process -Name 'sysmeters' -Force -ErrorAction SilentlyContinue",
+    "post_install": "Start-Process -FilePath \"$dir\\sysmeters.exe\" -WorkingDirectory $dir -WindowStyle Hidden",
+    "pre_uninstall": "Stop-Process -Name 'sysmeters' -Force -ErrorAction SilentlyContinue",
     "persist": "sysmeters.toml",
     "checkver": "github",
     "autoupdate": {
