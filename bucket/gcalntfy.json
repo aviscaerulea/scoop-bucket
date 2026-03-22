@@ -13,8 +13,7 @@
     "pre_install": "taskkill /f /im gcalntfy.exe 2>$null; exit 0",
     "persist": [
         "gcalntfy.toml",
-        "audio1.opus",
-        "audio2.opus"
+        "sound.wav"
     ],
     "pre_uninstall": "taskkill /f /im gcalntfy.exe 2>$null; exit 0",
     "post_install": "Start-Process -FilePath \"$dir\\gcalntfy.exe\" -WorkingDirectory $dir -WindowStyle Hidden",
