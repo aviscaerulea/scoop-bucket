@@ -6,7 +6,7 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/aviscaerulea/gcalntfy/releases/download/v2.4.2/gcalntfy-2.4.2-x64.zip",
-            "hash": "396e9e25c50ae89052466a30f2abbcf9bfbe530dc2e7fdffe2ec168b85bb7a50"
+            "hash": "d9ebcd2a3e230d4dcee195109cdb7de85d902fc8431cc1e05fbe838058b81db7"
         }
     },
     "bin": "gcalntfy.exe",
