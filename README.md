@@ -17,6 +17,7 @@ This bucket provides Manifests for the following applications that are not manag
 | [tally](https://github.com/aviscaerulea/tally) | Detect web meetings by monitoring microphone and camera usage (by @aviscaerulea) |
 | [VOICEVOX](https://github.com/VOICEVOX/voicevox) | Open-source Japanese text-to-speech software |
 | [GoAWK](https://benhoyt.com/writings/goawk/) | POSIX-compliant AWK interpreter written in Go, with CSV support |
+| [minply](https://github.com/aviscaerulea/minply) | Ultra-lightweight CLI audio player with Bluetooth guard tone support (by @aviscaerulea) |
 
 The application provider is not affiliated with this repository.
 There is no guarantee of any disadvantage due to the use of this bucket.
