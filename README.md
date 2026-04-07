@@ -18,6 +18,7 @@ This bucket provides Manifests for the following applications that are not manag
 | [VOICEVOX](https://github.com/VOICEVOX/voicevox) | Open-source Japanese text-to-speech software |
 | [GoAWK](https://benhoyt.com/writings/goawk/) | POSIX-compliant AWK interpreter written in Go, with CSV support |
 | [minply](https://github.com/aviscaerulea/minply) | Ultra-lightweight CLI audio player with Bluetooth guard tone support (by @aviscaerulea) |
+| [winhandles](https://github.com/aviscaerulea/winhandles) | CLI tool to investigate Windows handle consumption by process (by @aviscaerulea) |
 
 The application provider is not affiliated with this repository.
 There is no guarantee of any disadvantage due to the use of this bucket.
