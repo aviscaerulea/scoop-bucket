@@ -1,4 +1,4 @@
-name: Excavator
+name: Update
 on:
   workflow_dispatch:
   schedule:

@@ -42,5 +42,5 @@ tasks:
   update:
     desc: GitHub Actions で Scoop バケットの自動更新を実行
     cmds:
-      - gh workflow run excavator.yml
+      - gh workflow run update.yml
       - echo "ワークフローを実行開始した"
