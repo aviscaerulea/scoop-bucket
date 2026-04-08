@@ -5,16 +5,17 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aviscaerulea/minply/releases/download/v1.6.0/minply-v1.6.0-x64.zip",
+            "url": "https://github.com/aviscaerulea/minply/releases/download/v1.6.0/minply-1.6.0-x64.zip",
             "hash": "974aaffcf2bc7b5cfddebdcfeb8adb5052a4af34dace518911fb02ef90e392fe"
         }
     },
     "bin": "minply.exe",
+    "persist": "minply.toml",
     "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/aviscaerulea/minply/releases/download/v$version/minply-v$version-x64.zip"
+                "url": "https://github.com/aviscaerulea/minply/releases/download/v$version/minply-$version-x64.zip"
             }
         }
     }
