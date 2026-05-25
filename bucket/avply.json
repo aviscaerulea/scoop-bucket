@@ -11,7 +11,10 @@
     },
     "bin": "avply.exe",
     "depends": "main/ffmpeg",
-    "persist": "avply.toml",
+    "persist": [
+        "avply.toml",
+        "avply.local.toml"
+    ],
     "checkver": "github",
     "autoupdate": {
         "architecture": {
