@@ -1,0 +1,29 @@
+{
+    "version": "2.6.11",
+    "description": "The Notepad equivalent for Markdown - lightweight Markdown viewer and editor",
+    "homepage": "https://markpad.dev",
+    "license": "BSD-3-Clause",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/alecdotdev/Markpad/releases/download/v2.6.11/Markpad_2.6.11_x64.exe#/markpad.exe",
+            "hash": "eaca8c58720201a9320d2d1d04ece016df86f90d1a98eb346376600eb48c9c69"
+        }
+    },
+    "bin": "markpad.exe",
+    "shortcuts": [
+        [
+            "markpad.exe",
+            "Markpad"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/alecdotdev/Markpad"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/alecdotdev/Markpad/releases/download/v$version/Markpad_$version_x64.exe#/markpad.exe"
+            }
+        }
+    }
+}

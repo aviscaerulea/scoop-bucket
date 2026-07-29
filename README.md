@@ -14,10 +14,12 @@ This bucket provides Manifests for the following applications that are not manag
 | [秀丸ファイラー](https://hide.maruo.co.jp/software/hmfilerclassic.html) | 2.12 | Japanese two-pane file manager (秀丸ファイラー) |
 | [JPEGView-nt](https://github.com/aviscaerulea/jpegview-nt) | 1.3.46.0-20260519.1 | Fast image viewer/editor with HEIC/PDF/AVX2 support (fork by @aviscaerulea) |
 | [keypress](https://github.com/aviscaerulea/keypress) | 1.0.0 | Lightweight CLI tool to automate key input |
+| [Markpad](https://github.com/alecdotdev/Markpad) | 2.6.11 | The Notepad equivalent for Markdown - lightweight Markdown viewer and editor |
 | [minply](https://github.com/aviscaerulea/minply) | 1.7.2 | Ultra-lightweight CLI audio player with Bluetooth guard tone support |
 | [Monitor Off](https://github.com/aviscaerulea/monitor-off) | 1.0.0 | Lock desktop and turn off monitor power |
 | [myacts](https://github.com/aviscaerulea/myacts-releases) | 2.1.0 | Google Workspace activity CLI tool and MCP server (Chat, Calendar, Gmail, Drive) |
 | [Reduce Memory](https://www.sordum.org/9197/) | 1.7 | Reduce working set memory of processes to free up RAM |
+| [redntfy](https://github.com/aviscaerulea/redntfy) | 1.1.0 | Redmine ticket update notifier daemon with Windows Toast notifications |
 | [**sysmeters**](https://github.com/aviscaerulea/sysmeters) | 1.15.4 | Real-time system resource monitoring HUD for Windows 11 (CPU, GPU, memory, disk I/O, network) |
 | [tally](https://github.com/aviscaerulea/tally) | 1.1.2 | Detect web meetings by monitoring microphone and camera usage |
 | [UDEV Gothic](https://github.com/yuru7/udev-gothic) | 2.2.0 | Programming font combining BIZ UD Gothic and JetBrains Mono |
