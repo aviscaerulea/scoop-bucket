@@ -14,7 +14,6 @@ This bucket provides Manifests for the following applications that are not manag
 | [秀丸ファイラー](https://hide.maruo.co.jp/software/hmfilerclassic.html) | Japanese two-pane file manager (秀丸ファイラー) |
 | [JPEGView-nt](https://github.com/aviscaerulea/jpegview-nt) | Fast image viewer/editor with HEIC/PDF/AVX2 support (fork by @aviscaerulea) |
 | [keypress](https://github.com/aviscaerulea/keypress) | Lightweight CLI tool to automate key input |
-| [Markpad](https://github.com/alecdotdev/Markpad) | The Notepad equivalent for Markdown - lightweight Markdown viewer and editor |
 | [minply](https://github.com/aviscaerulea/minply) | Ultra-lightweight CLI audio player with Bluetooth guard tone support |
 | [Monitor Off](https://github.com/aviscaerulea/monitor-off) | Lock desktop and turn off monitor power |
 | [myacts](https://github.com/aviscaerulea/myacts-releases) | Google Workspace activity CLI tool and MCP server (Chat, Calendar, Gmail, Drive) |
