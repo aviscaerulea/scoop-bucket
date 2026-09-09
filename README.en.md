@@ -3,10 +3,10 @@
 [![English](https://img.shields.io/badge/lang-English-blue)](README.en.md)
 [![Update](https://github.com/aviscaerulea/scoop-bucket/actions/workflows/update.yml/badge.svg)](https://github.com/aviscaerulea/scoop-bucket/actions/workflows/update.yml)
 
-Scoop の標準 bucket が扱っていないアプリケーションを配布する、個人用の Scoop bucket です。
-日本製のソフトウェアや、標準 bucket に載りにくいニッチなツールを中心に収録しています。
+This is a personal Scoop bucket that distributes applications not covered by the official Scoop buckets.
+It mainly collects Japanese software and niche tools that are unlikely to be listed in the official buckets.
 
-## 収録アプリケーション
+## Applications
 
 | App | Description |
 |-----|-------------|
@@ -31,27 +31,27 @@ Scoop の標準 bucket が扱っていないアプリケーションを配布す
 | [winfocus](https://github.com/aviscaerulea/winfocus) | Restore and gather all visible windows to the primary monitor on Windows 11 |
 | [winhandles](https://github.com/aviscaerulea/winhandles) | CLI tool to investigate Windows handle consumption by process |
 
-バージョン更新は毎日 1 回、自動で確認します。
+Version updates are checked automatically once a day.
 
-## インストール
+## Installation
 
-### 動作要件
+### Requirements
 
 - Windows 10/11
-- Scoop が導入済みであること
+- Scoop already installed
 
-### 手順
+### Steps
 
-bucket を追加します。次にアプリケーションを個別にインストールします。
+Add the bucket first. Then install each application individually.
 
 ```powershell
 scoop bucket add aviscaerulea https://github.com/aviscaerulea/scoop-bucket
 scoop install aviscaerulea/<app>
 ```
 
-`<app>` には「収録アプリケーション」の App 列の名前を指定します。
+For `<app>`, specify a name from the App column in "Applications".
 
-## 免責事項
+## Disclaimer
 
-収録アプリケーションの提供元は、本リポジトリと関係ありません。
-本 bucket の利用によって生じた不利益について、一切保証しません。
+The application providers are not affiliated with this repository.
+No guarantee is made regarding any disadvantage arising from the use of this bucket.
