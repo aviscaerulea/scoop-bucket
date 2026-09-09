@@ -1,13 +1,13 @@
 {
-    "version": "1.8.0",
+    "version": "1.8.1",
     "description": "Redmine ticket update notifier daemon with Windows Toast notifications",
     "homepage": "https://github.com/aviscaerulea/redntfy",
     "license": "Freeware",
     "notes": "Set your Redmine url, api_key and query_ids in persist\\redntfy\\redntfy.local.toml before use.",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aviscaerulea/redntfy/releases/download/v1.8.0/redntfy-1.8.0-x64.zip",
-            "hash": "02bdbb9d10f9e7879386d9cbf547ce5eb2cabfae71b3498b569dd3712fa6c3b4"
+            "url": "https://github.com/aviscaerulea/redntfy/releases/download/v1.8.1/redntfy-1.8.1-x64.zip",
+            "hash": "1aa5d85d2e678c668ecbaa37ae8ac5c14c9a3150e027c0093220831ea5c1bd27"
         }
     },
     "bin": "redntfy.exe",
