@@ -1,12 +1,12 @@
 {
-    "version": "1.26.0",
+    "version": "1.28.0",
     "description": "Real-time system resource monitoring HUD for Windows 11 (CPU, GPU, memory, disk I/O, network)",
     "homepage": "https://github.com/aviscaerulea/sysmeters",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aviscaerulea/sysmeters/releases/download/v1.26.0/sysmeters-v1.26.0-x64.zip",
-            "hash": "c047c6bf53641f936e5b1c3c269b5ae8c988f04d38037a125fe76746924628b6"
+            "url": "https://github.com/aviscaerulea/sysmeters/releases/download/v1.28.0/sysmeters-v1.28.0-x64.zip",
+            "hash": "b40a05027884ea24547514170fd22e32832ecefa92b48afe1d69e442049fd2f7"
         }
     },
     "bin": "sysmeters.exe",
