@@ -13,7 +13,8 @@
     "depends": "main/ffmpeg",
     "persist": [
         "avply.toml",
-        "avply.local.toml"
+        "avply.local.toml",
+        "model"
     ],
     "checkver": "github",
     "autoupdate": {
