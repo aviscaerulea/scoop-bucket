@@ -21,7 +21,6 @@ Scoop の標準 bucket が扱っていないアプリケーションを配布す
 | [keypress](https://github.com/aviscaerulea/keypress) | Lightweight CLI tool to automate key input |
 | [minply](https://github.com/aviscaerulea/minply) | Ultra-lightweight CLI audio player with Bluetooth guard tone support |
 | [Monitor Off](https://github.com/aviscaerulea/monitor-off) | Lock desktop and turn off monitor power |
-| [myacts](https://github.com/aviscaerulea/myacts-releases) | Google Workspace activity CLI tool and MCP server (Chat, Calendar, Gmail, Drive) |
 | [Reduce Memory](https://www.sordum.org/9197/) | Reduce working set memory of processes to free up RAM |
 | [redntfy](https://github.com/aviscaerulea/redntfy) | Redmine ticket update notifier daemon with Windows Toast notifications |
 | [**sysmeters**](https://github.com/aviscaerulea/sysmeters) | Real-time system resource monitoring HUD for Windows 11 (CPU, GPU, memory, disk I/O, network) |
