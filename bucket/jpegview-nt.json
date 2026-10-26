@@ -35,7 +35,7 @@
     },
     "checkver": {
         "github": "https://github.com/aviscaerulea/jpegview-nt",
-        "regex": "tag/v([\\d.]+-\\d+\\.\\d+)"
+        "regex": "v([\\d.]+-\\d+\\.\\d+)"
     },
     "autoupdate": {
         "architecture": {
