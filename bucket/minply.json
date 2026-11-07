@@ -10,9 +10,12 @@
         }
     },
     "bin": "minply.exe",
-    "pre_install": "$p = Get-Process -Name minply -ErrorAction SilentlyContinue | Where-Object { $_.Path -like \"$(Split-Path $dir)\\*\" }; if ($p) { $p | Stop-Process -Force; $p | Wait-Process -Timeout 10 -ErrorAction SilentlyContinue }",
+    "pre_install": [
+        "$p = Get-Process -Name minply -ErrorAction SilentlyContinue | Where-Object { $_.Path -like \"$(Split-Path $dir)\\*\" }; if ($p) { $p | Stop-Process -Force; $p | Wait-Process -Timeout 10 -ErrorAction SilentlyContinue }",
+        "if ((Test-Path \"$persist_dir\\minply.toml\") -and -not (Test-Path \"$persist_dir\\minply.local.toml\")) { Move-Item \"$persist_dir\\minply.toml\" \"$persist_dir\\minply.local.toml\" }"
+    ],
     "persist": [
-        "minply.toml",
+        "minply.local.toml",
         "logs"
     ],
     "pre_uninstall": "$p = Get-Process -Name minply -ErrorAction SilentlyContinue | Where-Object { $_.Path -like \"$(Split-Path $dir)\\*\" }; if ($p) { $p | Stop-Process -Force; $p | Wait-Process -Timeout 10 -ErrorAction SilentlyContinue }",
