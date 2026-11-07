@@ -1,12 +1,12 @@
 {
-    "version": "1.11.0",
+    "version": "1.12.0",
     "description": "Ultra-lightweight Windows CLI audio player",
     "homepage": "https://github.com/aviscaerulea/minply",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/aviscaerulea/minply/releases/download/v1.11.0/minply-1.11.0-x64.zip",
-            "hash": "451477cea53bb0cd538408d3092c6fc26741edb0e397785b682cd6c2bb1be035"
+            "url": "https://github.com/aviscaerulea/minply/releases/download/v1.12.0/minply-1.12.0-x64.zip",
+            "hash": "fe0b44145239ef1b4736852da7023e6714f9706bb69382fd8cd6ea50eeb69edb"
         }
     },
     "bin": "minply.exe",
