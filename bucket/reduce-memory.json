@@ -1,10 +1,10 @@
 {
-    "version": "1.7",
+    "version": "1.8",
     "description": "Reduce working set memory of processes to free up RAM",
     "license": "Freeware",
     "homepage": "https://www.sordum.org/9197/",
     "url": "https://www.sordum.org/files/download/reduce-memory/ReduceMemory.zip",
-    "hash": "0af55020a24bc7c2af19c4306894e4c81088372e5e72ffc495c9ef95d5c4eb35",
+    "hash": "09c5d1b5bd1be1303ffa5a462a1036745c768f2719672325beaf9d17bfa71211",
     "checkver": "Reduce Memory\\s*v([\\d.]+)",
     "autoupdate": {
         "url": "https://www.sordum.org/files/download/reduce-memory/ReduceMemory.zip"
